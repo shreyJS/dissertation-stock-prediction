@@ -1,0 +1,15 @@
+{
+  "model": "Model C (Attention-LSTM, multimodal)",
+  "lookback_days": 10,
+  "n_train": 1738,
+  "n_calibration": 555,
+  "n_val": 555,
+  "n_test": 565,
+  "majority_baseline_acc": 0.40530973451327434,
+  "test_accuracy": 0.4353982300884956,
+  "test_macro_f1": 0.31867268206790755,
+  "test_mcc": 0.04450451367368826,
+  "conformal_confidence_level": 0.9,
+  "conformal_empirical_coverage": 0.8530973451327434,
+  "conformal_avg_set_size": 2.127433628318584
+}

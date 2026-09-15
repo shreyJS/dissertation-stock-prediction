@@ -1,0 +1,12 @@
+{
+  "model": "Model B (3-year)",
+  "lookback_days": 10,
+  "n_train": 7448,
+  "n_val": 1125,
+  "n_test": 1125,
+  "majority_baseline_acc": 0.41155555555555556,
+  "test_accuracy": 0.4017777777777778,
+  "test_macro_f1": 0.30976832822823047,
+  "test_mcc": 0.043724223232690936,
+  "beats_baseline": false
+}

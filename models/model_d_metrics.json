@@ -1,0 +1,55 @@
+{
+  "model": "Model D (multimodal XGBoost)",
+  "n_train": 1873,
+  "n_calibration": 555,
+  "n_val": 555,
+  "n_test": 565,
+  "best_iteration": 68,
+  "majority_baseline_acc": 0.40530973451327434,
+  "test_accuracy": 0.368141592920354,
+  "test_macro_f1": 0.23889124602501136,
+  "test_mcc": -0.047771216888802676,
+  "beats_baseline_accuracy": false,
+  "top_10_features": [
+    {
+      "feature": "atr_14",
+      "importance": 0.04617491737008095
+    },
+    {
+      "feature": "sent_finbert_negative_flag",
+      "importance": 0.04207136482000351
+    },
+    {
+      "feature": "macro_tnx_10y",
+      "importance": 0.03456247225403786
+    },
+    {
+      "feature": "macro_earnings_window",
+      "importance": 0.03445068746805191
+    },
+    {
+      "feature": "macro_vix",
+      "importance": 0.031125416979193687
+    },
+    {
+      "feature": "ema_20_ratio",
+      "importance": 0.03008129820227623
+    },
+    {
+      "feature": "sent_n_articles_3d",
+      "importance": 0.028390374034643173
+    },
+    {
+      "feature": "sent_vader_mean_3d",
+      "importance": 0.02779173105955124
+    },
+    {
+      "feature": "sma_10_ratio",
+      "importance": 0.027194928377866745
+    },
+    {
+      "feature": "sent_n_articles_7d",
+      "importance": 0.02703857608139515
+    }
+  ]
+}

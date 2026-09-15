@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Pytest
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints (if any local notebook outside Colab)
+.ipynb_checkpoints/
+
+# NOTE: data/, models/, sentiment_output/, and src/dashboard/data/ are intentionally NOT ignored, to allow running the dashboard and inspect the results

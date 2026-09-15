@@ -1,0 +1,115 @@
+{
+  "ablation": {
+    "price_only_18": {
+      "n_features": 18,
+      "accuracy": 0.39469026548672564,
+      "macro_f1": 0.36791297444589866,
+      "mcc": 0.04539958802986664
+    },
+    "full_40": {
+      "n_features": 40,
+      "accuracy": 0.368141592920354,
+      "macro_f1": 0.23889124602501136,
+      "mcc": -0.047771216888802676
+    }
+  },
+  "regime": {
+    "high_vix": {
+      "n": 90,
+      "accuracy": 0.4222222222222222,
+      "macro_f1": 0.26260620103718413,
+      "mcc": 0.02762960861711827
+    },
+    "low_vix": {
+      "n": 475,
+      "accuracy": 0.35789473684210527,
+      "macro_f1": 0.2279585990273236,
+      "mcc": -0.06692299144596531
+    }
+  },
+  "vix_median_threshold": 17.6200008392334,
+  "shap_model_d_top10": [
+    {
+      "feature": "macro_tnx_10y",
+      "mean_abs_shap": 0.13413773477077484
+    },
+    {
+      "feature": "atr_14",
+      "mean_abs_shap": 0.09870754182338715
+    },
+    {
+      "feature": "macro_vix",
+      "mean_abs_shap": 0.03563176468014717
+    },
+    {
+      "feature": "sent_momentum_1d",
+      "mean_abs_shap": 0.03421688824892044
+    },
+    {
+      "feature": "sent_n_articles_3d",
+      "mean_abs_shap": 0.034127358347177505
+    },
+    {
+      "feature": "peer_sent_finbert_mean",
+      "mean_abs_shap": 0.030665192753076553
+    },
+    {
+      "feature": "sent_vader_mean_3d",
+      "mean_abs_shap": 0.028373563662171364
+    },
+    {
+      "feature": "sent_vader_mean_7d",
+      "mean_abs_shap": 0.02519061602652073
+    },
+    {
+      "feature": "returns_1d",
+      "mean_abs_shap": 0.021009840071201324
+    },
+    {
+      "feature": "volume_change_1d",
+      "mean_abs_shap": 0.02085299789905548
+    }
+  ],
+  "shap_model_c_top10": [
+    {
+      "feature": "macro_tnx_10y",
+      "mean_abs_shap": 0.008863583498744068
+    },
+    {
+      "feature": "atr_14",
+      "mean_abs_shap": 0.0032698911521660723
+    },
+    {
+      "feature": "sent_finbert_positive_flag",
+      "mean_abs_shap": 0.0018499188519686526
+    },
+    {
+      "feature": "obv_zscore",
+      "mean_abs_shap": 0.0016078310523822653
+    },
+    {
+      "feature": "sent_finbert_std",
+      "mean_abs_shap": 0.001343110286521257
+    },
+    {
+      "feature": "sent_finbert_mean_3d",
+      "mean_abs_shap": 0.0012910599530453245
+    },
+    {
+      "feature": "sma_5_ratio",
+      "mean_abs_shap": 0.0012865910184615714
+    },
+    {
+      "feature": "bb_upper_dist",
+      "mean_abs_shap": 0.0012856963211256484
+    },
+    {
+      "feature": "macd_hist",
+      "mean_abs_shap": 0.0011664317258550387
+    },
+    {
+      "feature": "peer_sent_finbert_mean",
+      "mean_abs_shap": 0.0010501504230395397
+    }
+  ]
+}

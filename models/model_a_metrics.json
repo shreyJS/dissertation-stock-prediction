@@ -1,0 +1,12 @@
+{
+  "model": "Model A (12-month)",
+  "lookback_days": 10,
+  "n_train": 3515,
+  "n_val": 555,
+  "n_test": 565,
+  "majority_baseline_acc": 0.415929203539823,
+  "test_accuracy": 0.3663716814159292,
+  "test_macro_f1": 0.35829884432594317,
+  "test_mcc": 0.022303571252082505,
+  "beats_baseline": false
+}
